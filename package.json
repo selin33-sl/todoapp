@@ -1,0 +1,63 @@
+{
+  
+  "name": "flutter_nodejs_mongodb2",
+  
+  "version": "1.0.0",
+  
+  "main": "index.js",
+  
+  "scripts": {
+  
+    
+  "start": "node public/app.js",
+  
+    
+  "dev": "nodemon src/app.ts",
+  
+    
+  "build": "tsc -p ."
+  
+  },
+  
+  "keywords": [],
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "description": "",
+  
+  "dependencies": {
+  
+    
+  "@types/express": "^4.17.14",
+  
+    
+  "dotenv": "^16.0.3",
+  
+    
+  "express": "^4.18.2",
+  
+    
+  "heroku": "^7.66.4",
+  
+    
+  "mongodb": "^4.12.1",
+  
+    
+  "mongoose": "^6.7.4",
+  
+    
+  "node-module": "^2.0.0",
+  
+    
+  "nodemon": "^2.0.20",
+  
+    
+  "ts-node": "^10.9.1",
+  
+    
+  "typescript": "^4.9.3"
+  
+  }
+}
